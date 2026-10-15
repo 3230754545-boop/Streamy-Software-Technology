@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
 A[Inception Abstract Created] --> B[SRS Requirements Compiling]
 subgraph SpecPhase [1. Requirements Specification Block]
