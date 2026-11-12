@@ -1,15 +1,16 @@
 # Streamy Core Domain Structural Architecture
-## Foundational Object-Oriented Entity Specifications
+## Advanced Object-Oriented System Entity Specifications
+This structural document acts as the definitive blueprint for the Streamy runtime system. It establishes core hierarchies, lifecycle coupling, and cardinality rules, dictating how object models must inherit attributes and clear space allocations out of memory.
 
-### 1. Conceptual Domain Breakdown
-This tracking document establishes the baseline static structures for the Streamy streaming platform codebase. By translating system requirements nouns straight into unified class schemas, we guarantee the underlying database and Python structures align perfectly.
+### 1. Complex System Relationships Analysis
 
-### 2. Base Entity Model Class Diagram
-The architectural class schema below plots our primary data properties, encapsulation metrics, and loose directional system associations:
+### 2. Comprehensive Production Class Diagram
+The advanced structural design schematic below details all inheritance, composition, and aggregation parameters for the Streamy domain engine:
 
 ```mermaid
-title: Streamy Production Structural Domain Model
-classDiagram direction TB
+classDiagram
+direction TB
+title Streamy Production Structural Domain Model
 class Title {
 <<abstract>>
 +String name
